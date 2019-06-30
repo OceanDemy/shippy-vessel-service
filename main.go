@@ -3,12 +3,10 @@ package main
 import (
 	"fmt"
 	"log"
-
 	"os"
-
-	pb "github.com/EwanValentine/shippy-vessel-service/proto/vessel"
 	"github.com/micro/go-micro"
 	k8s "github.com/micro/kubernetes/go/micro"
+	pb "github.com/oceandemy/shippy/shippy-vessel-service/proto/vessel"
 )
 
 const (
